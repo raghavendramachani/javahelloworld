@@ -18,10 +18,16 @@ jobs:
     steps:
       - name: Change Dir and Exec ALM Test
         run: |
-          echo 'cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1'
-          cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1
-          echo 'touch test1'
-          touch test1
+            echo ':: CD C:\Vardhini\OGE\temp'
+            CD C:\Vardhini\OGE\temp
+            echo ':: mkdir test1'
+            mkdir test1
+'
+
+          # echo 'cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1'
+          # cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1
+          # echo 'touch test1'
+          # touch test1
 
           # echo ':: CD C:\CI_Utility\ADM-FT-ToolsLauncher\bin\Debug'
           # CD C:\CI_Utility\ADM-FT-ToolsLauncher\bin\Debug
