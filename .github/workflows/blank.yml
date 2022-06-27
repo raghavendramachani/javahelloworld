@@ -22,7 +22,6 @@ jobs:
             CD C:\Vardhini\OGE\temp
             echo ':: mkdir test1'
             mkdir test1
-'
 
           # echo 'cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1'
           # cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1
