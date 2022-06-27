@@ -18,8 +18,8 @@ jobs:
     steps:
       - name: Change Dir and Exec ALM Test
         run: |
-            echo ':: CD C:\Vardhini\OGE\temp'
-            CD C:\Vardhini\OGE\temp
+            echo ':: CD C:\action-runner'
+            CD C:\action-runner
             echo ':: mkdir test1'
             mkdir test1
 
