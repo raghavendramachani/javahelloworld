@@ -19,7 +19,7 @@ jobs:
       - name: Change Dir and Exec ALM Test
         run: |
            echo 'cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1'
-           cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1
+           cd /Users/raghavendra.x.machani.-nd/actions-runner/temp2
            echo 'touch test1'
            touch test1
           # echo ':: CD C:\CI_Utility\ADM-FT-ToolsLauncher\bin\Debug'
