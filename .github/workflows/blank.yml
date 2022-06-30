@@ -18,17 +18,7 @@ jobs:
     steps:
       - name: Change Dir and Exec ALM Test
         run: |
-            echo ':: CD C:\action-runner'
-            CD C:\action-runner
-            echo ':: mkdir test1'
-            mkdir test1
-
-          # echo 'cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1'
-          # cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1
-          # echo 'touch test1'
-          # touch test1
-
-          # echo ':: CD C:\CI_Utility\ADM-FT-ToolsLauncher\bin\Debug'
-          # CD C:\CI_Utility\ADM-FT-ToolsLauncher\bin\Debug
-          # echo ':: .\FTToolsLauncher.exe -parmafile ALM_TestSet.mtd'
-          # .\FTToolsLauncher.exe -parmafile ALM_TestSet.mtd
+          echo ':: CD C:\ADM-FT-ToolsLauncher\bin\Debug'
+          CD C:\ADM-FT-ToolsLauncher\bin\Debug
+          echo ':: .\FTToolsLauncher.exe -parmafile ALM_TestSet.mtb'
+          .\FTToolsLauncher.exe -parmafile ALM_TestSet.mtb
