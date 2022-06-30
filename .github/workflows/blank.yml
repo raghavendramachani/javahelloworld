@@ -21,4 +21,4 @@ jobs:
           echo ':: CD C:\ADM-FT-ToolsLauncher\bin\Debug'
           CD C:\ADM-FT-ToolsLauncher\bin\Debug
           echo ':: .\FTToolsLauncher.exe -parmafile ALM_TestSet.mtb'
-          .\FTToolsLauncher.exe -parmafile ALM_TestSet.mtb
+          .\FTToolsLauncher.exe -paramfile ALM_TestSet.mtb
