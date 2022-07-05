@@ -18,10 +18,10 @@ jobs:
     steps:
       - name: Change Dir and Exec ALM Test
         run: |
-           echo 'cd /Users/raghavendra.x.machani.-nd/actions-runner/temp1'
-           cd /Users/raghavendra.x.machani.-nd/
+           echo 'cd /Users/raghavendra.x.machani.-nd/actions-runner/temp3'
+           cd /Users/raghavendra.x.machani.-nd/actions-runner/temp3
            echo 'touch test1'
-           ls -lrt > machani-testing
+           ls -lrt / > machani-testing
           # echo ':: CD C:\CI_Utility\ADM-FT-ToolsLauncher\bin\Debug'
           # CD C:\CI_Utility\ADM-FT-ToolsLauncher\bin\Debug
           # echo ':: .\FTToolsLauncher.exe -parmafile ALM_TestSet.mtd'
